@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-20 16:28+0000\n"
+"POT-Creation-Date: 2026-06-27 16:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4160,7 +4160,8 @@ msgstr ""
 #: ../locale/scriptstrings/t.rast.univar_to_translate.c:11
 #: ../locale/scriptstrings/t.rast3d.list_to_translate.c:12
 #: ../locale/scriptstrings/t.rast3d.list_to_translate.c:13
-#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:10
+#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:11
+#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:13
 #: ../locale/scriptstrings/t.vect.list_to_translate.c:10
 #: ../locale/scriptstrings/t.vect.list_to_translate.c:11
 #: ../locale/scriptstrings/t.vect.univar_to_translate.c:6
@@ -13189,6 +13190,7 @@ msgstr ""
 
 #: ../locale/scriptstrings/db.univar_to_translate.c:6
 #: ../locale/scriptstrings/t.rast.univar_to_translate.c:8
+#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:10
 #: ../locale/scriptstrings/v.db.univar_to_translate.c:6
 #: ../raster/r.univar/r.univar_main.c:89 ../raster/r.univar/r3.univar_main.c:53
 #: ../vector/v.univar/main.c:125
@@ -15100,8 +15102,10 @@ msgstr ""
 #: ../locale/scriptstrings/t.rast3d.list_to_translate.c:16
 #: ../locale/scriptstrings/t.rast3d.list_to_translate.c:18
 #: ../locale/scriptstrings/t.rast3d.list_to_translate.c:20
-#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:12
 #: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:15
+#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:17
+#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:20
+#: ../locale/scriptstrings/t.vect.db.select_to_translate.c:9
 #: ../locale/scriptstrings/t.vect.list_to_translate.c:8
 #: ../locale/scriptstrings/t.vect.list_to_translate.c:14
 #: ../locale/scriptstrings/t.vect.list_to_translate.c:16
@@ -15140,8 +15144,8 @@ msgstr ""
 #: ../locale/scriptstrings/t.rast.list_to_translate.c:16
 #: ../locale/scriptstrings/t.rast.univar_to_translate.c:12
 #: ../locale/scriptstrings/t.rast3d.list_to_translate.c:15
-#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:11
-#: ../locale/scriptstrings/t.vect.db.select_to_translate.c:8
+#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:14
+#: ../locale/scriptstrings/t.vect.db.select_to_translate.c:10
 #: ../locale/scriptstrings/t.vect.list_to_translate.c:15
 #: ../locale/scriptstrings/t.vect.univar_to_translate.c:8
 msgid "Field separator character between the output columns"
@@ -15658,7 +15662,7 @@ msgstr ""
 #: ../locale/scriptstrings/t.rast.list_to_translate.c:18
 #: ../locale/scriptstrings/t.rast.univar_to_translate.c:18
 #: ../locale/scriptstrings/t.rast3d.list_to_translate.c:19
-#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:14
+#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:19
 #: ../locale/scriptstrings/t.vect.list_to_translate.c:17
 #: ../locale/scriptstrings/t.vect.univar_to_translate.c:11
 msgid "Suppress printing of column names"
@@ -15683,6 +15687,7 @@ msgstr ""
 
 #: ../locale/scriptstrings/t.rast.neighbors_to_translate.c:6
 #: ../locale/scriptstrings/t.rast.univar_to_translate.c:10
+#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:12
 msgid "Process only maps with this spatial relation to the current computational region"
 msgstr ""
 
@@ -15883,11 +15888,12 @@ msgid "Raster map used for zoning, must be of type CELL"
 msgstr ""
 
 #: ../locale/scriptstrings/t.rast.univar_to_translate.c:14
+#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:16
 msgid "plain;Plain text output;json;JSON (JavaScript Object Notation);csv;CSV (Comma Separated Values)"
 msgstr ""
 
 #: ../locale/scriptstrings/t.rast.univar_to_translate.c:16
-#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:13
+#: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:18
 #: ../locale/scriptstrings/t.vect.univar_to_translate.c:10
 #: ../raster/r.univar/r.univar_main.c:109
 #: ../raster/r.univar/r3.univar_main.c:71 ../vector/v.univar/main.c:136
@@ -15983,7 +15989,7 @@ msgid "Raster map with zones to compute statistics for"
 msgstr ""
 
 #: ../locale/scriptstrings/t.rast3d.univar_to_translate.c:9
-msgid "Raster map with zones to compute statistics for (needs to be CELL)"
+msgid "3D raster map with zones"
 msgstr ""
 
 #: ../locale/scriptstrings/t.register_to_translate.c:1
@@ -16220,6 +16226,10 @@ msgstr ""
 #: ../vector/v.decimate/main.c:122 ../vector/v.extract/main.c:79
 #: ../vector/v.outlier/main.c:71
 msgid "select"
+msgstr ""
+
+#: ../locale/scriptstrings/t.vect.db.select_to_translate.c:8
+msgid "plain;Plain text output;csv;CSV (Comma Separated Values);json;JSON (JavaScript Object Notation)"
 msgstr ""
 
 #: ../locale/scriptstrings/t.vect.export_to_translate.c:1
