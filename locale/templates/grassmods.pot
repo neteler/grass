@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 18:44+0000\n"
+"POT-Creation-Date: 2026-09-12 17:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../db/db.columns/main.c:65 ../db/db.describe/main.c:79
 #: ../doc/examples/vector/v.example/main.c:139
-#: ../scripts/db.univar/db.univar.py:122 ../vector/v.db.connect/main.c:347
+#: ../scripts/db.univar/db.univar.py:120 ../vector/v.db.connect/main.c:347
 #: ../vector/v.extract/main.c:230 ../vector/v.in.ascii/main.c:444
 #: ../vector/v.info/print.c:236 ../vector/v.out.ogr/main.c:715
 #: ../vector/v.out.postgis/table.c:41 ../vector/v.out.svg/main.c:162
@@ -369,7 +369,7 @@ msgstr ""
 #: ../raster/r.regression.multi/main.c:210
 #: ../raster/r.univar/r.univar_main.c:217
 #: ../raster/r.univar/r3.univar_main.c:173
-#: ../scripts/db.univar/db.univar.py:115
+#: ../scripts/db.univar/db.univar.py:113
 #: ../scripts/v.db.univar/v.db.univar.py:92 ../temporal/t.connect/main.c:144
 #: ../vector/v.univar/main.c:174 ../vector/v.what/main.c:192
 msgid "Flag 'g' is deprecated and will be removed in a future release. Please use format=shell instead."
@@ -1237,7 +1237,7 @@ msgstr ""
 msgid "OGR layer <%s> not found"
 msgstr ""
 
-#: ../db/drivers/ogr/execute.c:76 ../scripts/db.univar/db.univar.py:130
+#: ../db/drivers/ogr/execute.c:76 ../scripts/db.univar/db.univar.py:128
 #: ../vector/v.colors.out/make_colors.c:42 ../vector/v.colors/scan_attr.c:34
 #: ../vector/v.db.connect/main.c:484 ../vector/v.distance/main.c:570
 #: ../vector/v.distance/main.c:612 ../vector/v.in.db/main.c:192
@@ -22380,7 +22380,7 @@ msgstr ""
 msgid "The input dataset <%s> has undefined CRS, its extent is reported as stored in the file"
 msgstr ""
 
-#: ../raster/r.in.pdal/info.cpp:188
+#: ../raster/r.in.pdal/info.cpp:213
 #, c-format
 msgid "Reprojection of the data extent failed: %s"
 msgstr ""
@@ -33373,31 +33373,31 @@ msgstr ""
 msgid "'sort' not found: sorting in memory"
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:128
+#: ../scripts/db.univar/db.univar.py:126
 #: ../vector/v.colors.out/make_colors.c:45 ../vector/v.colors/scan_attr.c:37
 #, c-format, python-format
 msgid "Column <%s> is not numeric"
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:133
+#: ../scripts/db.univar/db.univar.py:131
 #, python-format
 msgid "Calculation for column <%s> of table <%s>..."
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:134
+#: ../scripts/db.univar/db.univar.py:132
 msgid "Reading column values..."
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:161
+#: ../scripts/db.univar/db.univar.py:159
 #, python-format
 msgid "Table <%s> contains no data."
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:165
+#: ../scripts/db.univar/db.univar.py:163
 msgid "Calculating statistics..."
 msgstr ""
 
-#: ../scripts/db.univar/db.univar.py:189
+#: ../scripts/db.univar/db.univar.py:187
 msgid "No non-null values found"
 msgstr ""
 
