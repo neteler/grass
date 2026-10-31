@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-24 18:21+0000\n"
+"POT-Creation-Date: 2026-10-31 19:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1920,7 +1920,7 @@ msgstr ""
 #: ../raster/r.li/r.li.pielou/pielou.c:46 ../raster/r.li/r.li.renyi/renyi.c:47
 #: ../raster/r.li/r.li.richness/richness.c:42
 #: ../raster/r.li/r.li.shannon/shannon.c:43 ../raster/r.li/r.li.shape/main.c:45
-#: ../raster/r.li/r.li.simpson/simpson.c:43 ../raster/r.mapcalc/main.c:105
+#: ../raster/r.li/r.li.simpson/simpson.c:43 ../raster/r.mapcalc/main.c:108
 #: ../raster/r.mask.status/main.c:33 ../raster/r.mfilter/main.c:62
 #: ../raster/r.mode/main.c:50 ../raster/r.neighbors/main.c:178
 #: ../raster/r.null/main.c:55 ../raster/r.object.geometry/main.c:73
@@ -2924,7 +2924,7 @@ msgstr ""
 #: ../display/d.where/main.c:154 ../general/g.cairocomp/main.c:44
 #: ../imagery/i.group/main.c:166 ../raster/r.buildvrt/main.c:122
 #: ../raster/r.in.mat/main.c:124 ../raster/r.in.xyz/main.c:585
-#: ../raster/r.mapcalc/main.c:49 ../raster/r.series.accumulate/main.c:219
+#: ../raster/r.mapcalc/main.c:50 ../raster/r.series.accumulate/main.c:219
 #: ../raster/r.series/main.c:249 ../raster/r.support/main.c:206
 #: ../raster/r.topmodel/file_io.c:28 ../raster/r.topmodel/file_io.c:136
 #: ../raster/r.topmodel/file_io.c:161 ../raster3d/r3.support/main.c:166
@@ -5349,8 +5349,8 @@ msgstr ""
 #: ../raster/r.flow/flow_io.c:67 ../raster/r.flow/flow_io.c:245
 #: ../raster/r.geomorphon/memory.c:44 ../raster/r.info/main.c:137
 #: ../raster/r.kappa/main.c:170 ../raster/r.kappa/stats.c:33
-#: ../raster/r.kappa/stats.c:40 ../raster/r.mapcalc/map.c:513
-#: ../raster/r.mapcalc/map.c:817 ../raster/r.mapcalc/map3.c:721
+#: ../raster/r.kappa/stats.c:40 ../raster/r.mapcalc/map.c:514
+#: ../raster/r.mapcalc/map.c:818 ../raster/r.mapcalc/map3.c:721
 #: ../raster/r.null/main.c:126 ../raster/r.reclass/main.c:77
 #: ../raster/r.report/parse.c:276 ../raster/r.ros/main.c:359
 #: ../raster/r.ros/main.c:370 ../raster/r.ros/main.c:374
@@ -5375,7 +5375,7 @@ msgstr ""
 #: ../scripts/r.buffer.lowmem/r.buffer.lowmem.py:83
 #: ../scripts/r.fillnulls/r.fillnulls.py:149 ../scripts/r.grow/r.grow.py:122
 #: ../scripts/r.mask/r.mask.py:148 ../scripts/r.pack/r.pack.py:71
-#: ../scripts/r.reclass.area/r.reclass.area.py:372 ../scripts/r.rgb/r.rgb.py:53
+#: ../scripts/r.reclass.area/r.reclass.area.py:405 ../scripts/r.rgb/r.rgb.py:53
 #: ../scripts/v.rast.stats/v.rast.stats.py:151 ../vector/v.colors/main.c:314
 #: ../vector/v.vol.rst/main.c:605
 #, c-format, python-format
@@ -14317,7 +14317,7 @@ msgstr ""
 #: ../locale/scriptstrings/t.rast3d.algebra_to_translate.c:3
 #: ../locale/scriptstrings/t.rast3d.mapcalc_to_translate.c:3
 #: ../locale/scriptstrings/t.vect.algebra_to_translate.c:3
-#: ../raster/r.mapcalc/main.c:106 ../raster/r.mfilter/main.c:63
+#: ../raster/r.mapcalc/main.c:109 ../raster/r.mfilter/main.c:63
 #: ../raster/r.mode/main.c:52 ../raster/r.neighbors/main.c:179
 #: ../raster/r.quantile/main.c:298 ../raster/r.texture/main.c:96
 #: ../raster3d/r3.neighbors/main.c:202 ../vector/v.neighbors/main.c:116
@@ -14588,7 +14588,7 @@ msgid "Generate clumps including diagonal neighbors"
 msgstr ""
 
 #: ../locale/scriptstrings/r.reclass.area_to_translate.c:17
-msgid "Invert filter (remove clumps larger than lower and smaller than upper)"
+msgid "Invert filter (remove clumps larger than lower and smaller than upper, only for method 'reclass')"
 msgstr ""
 
 #: ../locale/scriptstrings/r.reclass.area_to_translate.c:18
@@ -18400,7 +18400,7 @@ msgid "Name of input raster files"
 msgstr ""
 
 #: ../raster/r.buildvrt/main.c:105 ../raster/r.external/main.c:181
-#: ../raster/r.mapcalc/main.c:173 ../raster/r.series.accumulate/main.c:204
+#: ../raster/r.mapcalc/main.c:176 ../raster/r.series.accumulate/main.c:204
 #: ../raster/r.series.interp/main.c:129 ../raster/r.series.interp/main.c:133
 #: ../raster/r.series.interp/main.c:145 ../raster/r.series.interp/main.c:149
 #: ../vector/v.colors/main.c:219
@@ -18600,7 +18600,7 @@ msgid "Raster map <%s> not found in current mapset"
 msgstr ""
 
 #: ../raster/r.category/main.c:211 ../raster/r.category/main.c:314
-#: ../raster/r.mapcalc/map.c:232 ../raster/r.mapcalc/map3.c:193
+#: ../raster/r.mapcalc/map.c:233 ../raster/r.mapcalc/map3.c:193
 #: ../raster/r.report/parse.c:297
 #, c-format
 msgid "Unable to read category file of raster map <%s@%s>"
@@ -23303,58 +23303,62 @@ msgstr ""
 msgid "Calculates Simpson's diversity index on a raster map"
 msgstr ""
 
-#: ../raster/r.mapcalc/evaluate.c:188 ../raster/r.mapcalc/evaluate.c:350
-#: ../raster/r.mapcalc/map.c:421 ../raster/r.mapcalc/map3.c:354
+#: ../raster/r.mapcalc/evaluate.c:189 ../raster/r.mapcalc/evaluate.c:351
+#: ../raster/r.mapcalc/map.c:422 ../raster/r.mapcalc/map3.c:354
 #, c-format
 msgid "Unknown type: %d"
 msgstr ""
 
-#: ../raster/r.mapcalc/evaluate.c:239
+#: ../raster/r.mapcalc/evaluate.c:240
 #, c-format
 msgid "Invalid type: %d"
 msgstr ""
 
-#: ../raster/r.mapcalc/evaluate.c:296
+#: ../raster/r.mapcalc/evaluate.c:297
 #, c-format
 msgid "Too few arguments for function '%s'"
 msgstr ""
 
-#: ../raster/r.mapcalc/evaluate.c:300
+#: ../raster/r.mapcalc/evaluate.c:301
 #, c-format
 msgid "Too many arguments for function '%s'"
 msgstr ""
 
-#: ../raster/r.mapcalc/evaluate.c:304
+#: ../raster/r.mapcalc/evaluate.c:305
 #, c-format
 msgid "Invalid argument type for function '%s'"
 msgstr ""
 
-#: ../raster/r.mapcalc/evaluate.c:308
+#: ../raster/r.mapcalc/evaluate.c:309
 #, c-format
 msgid "Invalid return type for function '%s'"
 msgstr ""
 
-#: ../raster/r.mapcalc/evaluate.c:312
+#: ../raster/r.mapcalc/evaluate.c:313
 #, c-format
 msgid "Unknown type for function '%s'"
 msgstr ""
 
-#: ../raster/r.mapcalc/evaluate.c:315
+#: ../raster/r.mapcalc/evaluate.c:316
 #, c-format
 msgid "Number of arguments for function '%s'"
 msgstr ""
 
-#: ../raster/r.mapcalc/evaluate.c:319
+#: ../raster/r.mapcalc/evaluate.c:320
 #, c-format
 msgid "Unknown error for function '%s'"
 msgstr ""
 
-#: ../raster/r.mapcalc/evaluate.c:400
+#: ../raster/r.mapcalc/evaluate.c:386
+msgid "rand() draws more than 2^46 random values. Later rows repeat the values of earlier rows plus a constant."
+msgstr ""
+
+#: ../raster/r.mapcalc/evaluate.c:431
 #, c-format
 msgid "output map <%s> exists. To overwrite, use the --overwrite flag"
 msgstr ""
 
-#: ../raster/r.mapcalc/evaluate.c:452
+#: ../raster/r.mapcalc/evaluate.c:485
 #, c-format
 msgid "The number of rows is less than the number of threads. Set the number of threads to be the same as the rows = %d."
 msgstr ""
@@ -23394,9 +23398,9 @@ msgstr ""
 msgid "Internal error for function %s()"
 msgstr ""
 
-#: ../raster/r.mapcalc/expression.c:354 ../raster/r.mapcalc/map.c:283
-#: ../raster/r.mapcalc/map.c:489 ../raster/r.mapcalc/map.c:530
-#: ../raster/r.mapcalc/map.c:633 ../raster/r.mapcalc/map3.c:240
+#: ../raster/r.mapcalc/expression.c:354 ../raster/r.mapcalc/map.c:284
+#: ../raster/r.mapcalc/map.c:490 ../raster/r.mapcalc/map.c:531
+#: ../raster/r.mapcalc/map.c:634 ../raster/r.mapcalc/map3.c:240
 #: ../raster/r.mapcalc/map3.c:426 ../raster/r.mapcalc/map3.c:472
 #: ../raster/r.mapcalc/map3.c:568
 #, c-format
@@ -23418,74 +23422,70 @@ msgstr ""
 msgid "Known functions:"
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:107
+#: ../raster/r.mapcalc/main.c:110
 msgid "Raster map calculator."
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:114
+#: ../raster/r.mapcalc/main.c:117
 msgid "Expression to evaluate"
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:115 ../raster/r.mapcalc/main.c:140
+#: ../raster/r.mapcalc/main.c:118 ../raster/r.mapcalc/main.c:143
 msgid "Expression"
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:123
+#: ../raster/r.mapcalc/main.c:126
 msgid "The computational region that should be used."
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:129
+#: ../raster/r.mapcalc/main.c:132
 msgid "current uses the current region of the mapset"
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:130
+#: ../raster/r.mapcalc/main.c:133
 msgid "intersect computes the intersection region between all input maps and uses the smallest resolution"
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:132
+#: ../raster/r.mapcalc/main.c:135
 msgid "union computes the union extent of all map regions and uses the smallest resolution"
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:139
+#: ../raster/r.mapcalc/main.c:142
 msgid "File containing expression(s) to evaluate"
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:147 ../raster/r.sim/r.sim.sediment/main.c:287
+#: ../raster/r.mapcalc/main.c:150 ../raster/r.sim/r.sim.sediment/main.c:287
 #: ../raster/r.sim/r.sim.water/main.c:322
 msgid "Generate random seed (result is non-deterministic) [deprecated]"
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:149 ../raster/r.sim/r.sim.sediment/main.c:289
+#: ../raster/r.mapcalc/main.c:152 ../raster/r.sim/r.sim.sediment/main.c:289
 #: ../raster/r.sim/r.sim.water/main.c:324
 msgid "This flag is deprecated and will be removed in a future release. Seeding is automatic or use parameter seed."
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:154
+#: ../raster/r.mapcalc/main.c:157
 msgid "List input and output maps"
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:177 ../raster/r.sim/simlib/random.c:30
+#: ../raster/r.mapcalc/main.c:180 ../raster/r.sim/simlib/random.c:30
 #, c-format
 msgid "%s= and -%c are mutually exclusive"
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:188
+#: ../raster/r.mapcalc/main.c:191
 msgid "parse error"
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:204
+#: ../raster/r.mapcalc/main.c:207
 msgid "Flag 's' is deprecated and will be removed in a future release. Seeding is automatic or use parameter seed."
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:240
+#: ../raster/r.mapcalc/main.c:243
 msgid "r3.mapcalc does not support parallel execution."
 msgstr ""
 
-#: ../raster/r.mapcalc/main.c:246
-msgid "Parallel execution is not supported with rand() function"
-msgstr ""
-
-#: ../raster/r.mapcalc/main.c:254 ../raster/r.mfilter/main.c:124
+#: ../raster/r.mapcalc/main.c:251 ../raster/r.mfilter/main.c:124
 #: ../raster/r.neighbors/main.c:301 ../raster/r.patch/main.c:105
 #: ../raster/r.resamp.filter/main.c:486 ../raster/r.resamp.interp/main.c:123
 #: ../raster/r.resamp.stats/main.c:438 ../raster/r.series/main.c:222
@@ -23495,12 +23495,12 @@ msgstr ""
 msgid "<%d> is not valid number of nprocs."
 msgstr ""
 
-#: ../raster/r.mapcalc/map.c:223 ../raster/r.mapcalc/map3.c:184
+#: ../raster/r.mapcalc/map.c:224 ../raster/r.mapcalc/map3.c:184
 #, c-format
 msgid "Unable to read color file for raster map <%s@%s>"
 msgstr ""
 
-#: ../raster/r.mapcalc/map.c:236 ../raster/r.mapcalc/map3.c:197
+#: ../raster/r.mapcalc/map.c:237 ../raster/r.mapcalc/map3.c:197
 #, c-format
 msgid "Unable to create btree for raster map <%s@%s>"
 msgstr ""
@@ -35023,82 +35023,116 @@ msgstr ""
 msgid "azimuth must be between 0 and 360"
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:148
+#: ../scripts/r.reclass.area/r.reclass.area.py:149
 msgid ""
 "xy-locations are not supported\n"
 "Need projected data with grids in meters"
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:154
+#: ../scripts/r.reclass.area/r.reclass.area.py:155
 msgid "Latitude-longitude locations are not supported"
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:156
+#: ../scripts/r.reclass.area/r.reclass.area.py:157
 msgid "xy-locations are not supported"
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:176
+#: ../scripts/r.reclass.area/r.reclass.area.py:177
 #, python-brace-format
 msgid "Generating a clumped raster file including diagonal neighbors with minimum {pixel_count} pixels"
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:180
+#: ../scripts/r.reclass.area/r.reclass.area.py:181
 msgid "Generating a clumped raster file including diagonal neighbors"
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:183
+#: ../scripts/r.reclass.area/r.reclass.area.py:184
 #, python-brace-format
 msgid "Generating a clumped raster file with minimum {pixel_count} pixels"
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:186
+#: ../scripts/r.reclass.area/r.reclass.area.py:187
 msgid "Generating a clumped raster file"
-msgstr ""
-
-#: ../scripts/r.reclass.area/r.reclass.area.py:214
-#, python-brace-format
-msgid "Generating a reclass map with area size larger than or equal to {lower} hectares and smaller than or equal to {upper} hectares..."
 msgstr ""
 
 #: ../scripts/r.reclass.area/r.reclass.area.py:218
 #, python-brace-format
-msgid "No areas of size larger than or equal to {lower} hectares and smaller than or equal to {upper} hectares"
+msgid "Generating a reclass map with area size smaller than {lower} hectares or larger than {upper} hectares..."
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:223
+#: ../scripts/r.reclass.area/r.reclass.area.py:222
 #, python-brace-format
-msgid "Generating a reclass map with area size larger than or equal to {lower} hectares..."
+msgid "No areas of size smaller than {lower} hectares or larger than {upper} hectares"
 msgstr ""
 
 #: ../scripts/r.reclass.area/r.reclass.area.py:227
 #, python-brace-format
-msgid "No areas of size larger than or equal to {lower} hectares"
+msgid "Generating a reclass map with area size larger than or equal to {lower} hectares and smaller than or equal to {upper} hectares..."
 msgstr ""
 
 #: ../scripts/r.reclass.area/r.reclass.area.py:231
 #, python-brace-format
+msgid "No areas of size larger than or equal to {lower} hectares and smaller than or equal to {upper} hectares"
+msgstr ""
+
+#: ../scripts/r.reclass.area/r.reclass.area.py:237
+#, python-brace-format
+msgid "Generating a reclass map with area size smaller than {lower} hectares..."
+msgstr ""
+
+#: ../scripts/r.reclass.area/r.reclass.area.py:240
+#, python-brace-format
+msgid "No areas of size smaller than {lower} hectares"
+msgstr ""
+
+#: ../scripts/r.reclass.area/r.reclass.area.py:245
+#, python-brace-format
+msgid "Generating a reclass map with area size larger than or equal to {lower} hectares..."
+msgstr ""
+
+#: ../scripts/r.reclass.area/r.reclass.area.py:249
+#, python-brace-format
+msgid "No areas of size larger than or equal to {lower} hectares"
+msgstr ""
+
+#: ../scripts/r.reclass.area/r.reclass.area.py:254
+#, python-brace-format
+msgid "Generating a reclass map with area size larger than {upper} hectares..."
+msgstr ""
+
+#: ../scripts/r.reclass.area/r.reclass.area.py:257
+#, python-brace-format
+msgid "No areas of size larger than {upper} hectares"
+msgstr ""
+
+#: ../scripts/r.reclass.area/r.reclass.area.py:262
+#, python-brace-format
 msgid "Generating a reclass map with area size smaller than or equal to {upper} hectares..."
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:235
+#: ../scripts/r.reclass.area/r.reclass.area.py:266
 #, python-brace-format
 msgid "No areas of size smaller than or equal to {upper} hectares"
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:239
+#: ../scripts/r.reclass.area/r.reclass.area.py:270
 msgid "Generating a reclass map without area size limits..."
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:240
+#: ../scripts/r.reclass.area/r.reclass.area.py:271
 msgid "No areas found"
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:300
+#: ../scripts/r.reclass.area/r.reclass.area.py:333
 #, python-format
 msgid "Raster map <%s> is not of type 'CELL'. Results may not be as expected."
 msgstr ""
 
-#: ../scripts/r.reclass.area/r.reclass.area.py:381
+#: ../scripts/r.reclass.area/r.reclass.area.py:408
+msgid "Flag -i is not supported with method='rmarea'"
+msgstr ""
+
+#: ../scripts/r.reclass.area/r.reclass.area.py:417
 msgid "Options <mode> and <value> are deprecated. Use 'lower' and/or 'upper'."
 msgstr ""
 
